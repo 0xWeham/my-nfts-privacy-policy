@@ -1,0 +1,13 @@
+Below are a list of tips, tricks, and FAQs. If you still have any questions, feel free to reach out on X, https://x.com/0xWeham.
+
+1. The app supports Ethereum and ENS addresses for pulling up your NFTs.
+2. To remove a saved wallet, press and hold on the wallet to remove it.
+3. To favourite a NFT, press on it and then click the star.
+4. To hide an NFT, in the grid view, press and hold on the NFT. You will get an option to hide.
+5. To share your NFTs, click the share icon next to your favourites. This will pull up the share sheet in iOS so you can share to the social app of your choice.
+
+Q. Why don't all of the NFTs show images? 
+A. I am working on this. I am using the Opensea API to pull and render the APIs, but it seems like they are having issues with some. It's on the todo list to fix. 
+
+Q. Why does this app exist?
+A. I'm a degen, love NFTs, and wanted to challenge myself to build an app that I would use.
