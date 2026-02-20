@@ -5,9 +5,13 @@ Below are a list of tips, tricks, and FAQs. If you still have any questions, fee
 3. To favourite a NFT, press on it and then click the star.
 4. To hide an NFT, in the grid view, press and hold on the NFT. You will get an option to hide.
 5. To share your NFTs, click the share icon next to your favourites. This will pull up the share sheet in iOS so you can share to the social app of your choice.
+6. To add an NFT as a widget to your homescreen, click on the NFT in the home grid within the app. Then click the phone icon in the top right next to the star. Now, go to your homescreen and add a widget. You can select My NFTs from the list of apps with widgets enabled. 
 
 Q. Why don't all of the NFTs show images? 
 A. I am working on this. I am using the Opensea API to pull and render the APIs, but it seems like they are having issues with some. It's on the todo list to fix. 
 
 Q. Why does this app exist?
 A. I'm a degen, love NFTs, and wanted to challenge myself to build an app that I would use.
+
+Q. Why is only the small square widget avalible? 
+A. NFTs are square and I didn't like the look of the medium or large widget. If you want these options, send me a request and I can build it out. 
