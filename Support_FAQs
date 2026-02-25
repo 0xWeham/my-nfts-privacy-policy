@@ -8,7 +8,8 @@ Below are a list of tips, tricks, and FAQs. If you still have any questions, fee
 6. To add an NFT as a widget to your homescreen, click on the NFT in the home grid within the app. Then click the phone icon in the top right next to the star. Now, go to your homescreen and add a widget. You can select My NFTs from the list of apps with widgets enabled. 
 
 Q. Why don't all of the NFTs show images? 
-A. I am working on this. I am using the Opensea API to pull and render the APIs, but it seems like they are having issues with some. It's on the todo list to fix. 
+A. I am working on this and it's something I am always wanting to improve. I am using the Opensea API to pull and render the NFTs. However, some NFTs are SVGs, videos, or HTML-based generative art that [AsyncImage] simply can't render. 
+  For example: Looking at [thumbnailImageURL] in [Item.swift], it tries three URL fields in order: [display_image_url] → [image_url] → [display_animation_url]. If all three are nil/empty, or if the URLs are in a format that [AsyncImage] can't handle, you get a blank tile.
 
 Q. Why does this app exist?
 A. I'm a degen, love NFTs, and wanted to challenge myself to build an app that I would use.
